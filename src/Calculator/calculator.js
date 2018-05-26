@@ -8,11 +8,9 @@ import './Calculator.css';
 export class Calculator extends React.Component {
   render() {
     return (
-      <div className="container calculator">
-        <div className="col-md-12">
+      <div>
           <Output/>
           <Input/>
-        </div>
       </div>
     );
   }

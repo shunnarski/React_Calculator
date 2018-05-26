@@ -10,8 +10,12 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Calculator App!</h1>
+          <h3>Developed by Alec Shunnarah using React.js</h3>
         </header>
-        <Calculator/>
+        <div className="calculator">
+          <Calculator/>
+        </div>
+
       </div>
     );
   }

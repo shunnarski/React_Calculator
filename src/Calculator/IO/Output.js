@@ -1,5 +1,5 @@
 import React from 'react';
-import {OutputBar} from './OutputElements/OutputBar.js';
+import {OutputBar} from './IO.js';
 import './Output.css';
 export class Output extends React.Component {
   render() {
@@ -7,7 +7,6 @@ export class Output extends React.Component {
       <div className="output">
         <OutputBar />
       </div>
-
     );
   }
 }

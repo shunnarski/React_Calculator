@@ -1,0 +1,14 @@
+
+
+.output-bar{
+  background-color:#70747c;
+  width: 600px;
+  margin: auto;
+  color: white;
+  padding: 30px;
+}
+
+.result-view {
+  font-size: 50px;
+  text-align: right;
+}

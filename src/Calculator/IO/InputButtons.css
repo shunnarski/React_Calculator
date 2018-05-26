@@ -1,0 +1,49 @@
+
+
+.input-button {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: black;
+  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.number-button {
+  background-color: #ea900b;
+  width: 124px;
+  padding: 20px;
+}
+
+.number-button:hover {
+  background-color: #c67a09;
+}
+
+.operation-button {
+  background-color: #515151;
+  width: 124px;
+  padding: 20px;
+}
+
+.operation-button:hover {
+  background-color: #2d2d2d;
+}
+
+.clear-button {
+  background-color: #2870a8;
+  width: 454px;
+  padding: 20px;
+}
+
+.clear-button:hover{
+  background-color: #174366;
+
+}
